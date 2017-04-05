@@ -149,6 +149,11 @@ public class Input extends javax.swing.JFrame {
 
         cbAgama.setFont(new java.awt.Font("SimHei", 1, 12)); // NOI18N
         cbAgama.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Kristen", "Islam", "Budha", "Hindu", "Konghucu" }));
+        cbAgama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbAgamaActionPerformed(evt);
+            }
+        });
 
         cbStatus.setFont(new java.awt.Font("SimHei", 1, 12)); // NOI18N
         cbStatus.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Kawin", "Belum Kawin" }));
@@ -426,6 +431,10 @@ public class Input extends javax.swing.JFrame {
         cbAgama.setSelectedItem(null);
         cbStatus.setSelectedItem(null);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void cbAgamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbAgamaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbAgamaActionPerformed
 
     /**
      * @param args the command line arguments
